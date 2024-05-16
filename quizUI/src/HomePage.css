@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+}
+
+.play-button {
+  font-size: 1.5em;
+  background-color: #3498db; /* Button color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.play-button:hover {
+  background-color: #2980b9; /* Darker color on hover */
+}
+
+.play-button span {
+  margin-right: 10px;
+}
